@@ -21,6 +21,10 @@ public class User {
 		this.age = age;
 		this.password = password;
 	}
+	
+	public User() {
+	}
+
 	public int getId() {
 		return id;
 	}
